@@ -1,6 +1,5 @@
 import random
 
-# รายชื่อ 77 จังหวัดในประเทศไทย
 thai_provinces = [
     "กระบี่", "กรุงเทพมหานคร", "กาญจนบุรี", "กาฬสินธุ์", "กำแพงเพชร", "ขอนแก่น",
     "จันทบุรี", "ฉะเชิงเทรา", "ชลบุรี", "ชัยนาท", "ชัยภูมิ", "ชุมพร", "เชียงราย", "เชียงใหม่",
@@ -17,6 +16,5 @@ thai_provinces = [
 def random_province():
     return random.choice(thai_provinces)
 
-# ตัวอย่างการทดสอบ
 if __name__ == "__main__":
-    print("จังหวัดที่สุ่มได้:", random_province())
+    print(random_province())
