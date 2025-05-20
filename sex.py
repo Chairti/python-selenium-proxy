@@ -1,8 +1,5 @@
 import random
 
-def random_sex(items):
+def randoms_sex():
+    items = ["ชาย", "หญิง" , "อื่นๆ"]
     return random.choice(items)
-
-if __name__ == "__main__":
-    items = ["ชาย", "หญิง", "อื่นๆ"]
-    print("ผลไม้ที่สุ่มได้คือ:", random_sex(items))
